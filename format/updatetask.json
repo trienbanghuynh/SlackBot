@@ -1,0 +1,127 @@
+{
+	"blocks": [
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": "Welcome back to-do list command",
+				"emoji": true
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "plain_text",
+				"text": "The maximum tasks allow is 10. Your current total tasks now is ",
+				"emoji": true
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Your current task(s)*:"
+			}
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "checkboxes",
+					"options": [
+						{
+							"text": {
+								"type": "plain_text",
+								"text": "*[🛑 TEMPLATE - DO NOT CLICK 🛑]* You can start to add task by hitting Add new task button 🆕",
+								"emoji": true
+							},
+							"value": "valueId"
+						}
+					],
+					"action_id": "checkbox-action"
+				}
+			]
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Add new task 🆕",
+						"emoji": true
+					},
+					"value": "new-task-content",
+					"action_id": "new-task-button"
+				}
+			]
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Edit the task 📝",
+						"emoji": true
+					},
+					"value": "edit",
+					"action_id": "edit-button"
+				}
+			]
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Done the task ✅",
+						"emoji": true
+					},
+					"value": "delete",
+					"action_id": "delete-button"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Change username/password 📝",
+						"emoji": true
+					},
+					"value": "change",
+					"action_id": "change-button"
+				}
+			]
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Sign out 👋",
+						"emoji": true
+					},
+					"value": "signout",
+					"action_id": "signout-button"
+				}
+			]
+		}
+	]
+}

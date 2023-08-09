@@ -1,0 +1,97 @@
+{
+	"blocks": [
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": "Welcome to to-do list command ✋",
+				"emoji": true
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "LOOK LIKE YOUR HAVEN'T CREATED AN ACCOUNT. LET'S SIGN UP 🔥*"
+			}
+		},
+		{
+			"dispatch_action": true,
+			"type": "input",
+			"element": {
+				"type": "plain_text_input",
+				"dispatch_action_config": {
+					"trigger_actions_on": [
+						"on_character_entered"
+					]
+				},
+				"action_id": "username-signup"
+			},
+			"label": {
+				"type": "plain_text",
+				"text": "Username",
+				"emoji": true
+			}
+		},
+		{
+			"dispatch_action": true,
+			"type": "input",
+			"element": {
+				"type": "plain_text_input",
+				"dispatch_action_config": {
+					"trigger_actions_on": [
+						"on_character_entered"
+					]
+				},
+				"action_id": "password-signup"
+			},
+			"label": {
+				"type": "plain_text",
+				"text": "Password",
+				"emoji": true
+			}
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Sign up ✅",
+						"emoji": true
+					},
+					"value": "click_me_123",
+					"action_id": "submit-signup-button"
+				}
+			]
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Already had account?"
+			},
+			"accessory": {
+				"type": "button",
+				"text": {
+					"type": "plain_text",
+					"text": "Sign in",
+					"emoji": true
+				},
+				"value": "sign-up",
+				"action_id": "sign-in-exist-account-button"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Completely lost/forgot account 😭, any concern/feedback 🙁? Please contact me at 📧 trienbanghuynh4701@gmail.com"
+			}
+		}
+	]
+}

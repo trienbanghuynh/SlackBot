@@ -1,0 +1,62 @@
+{
+	"blocks": [
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "City Info"
+			}
+		},
+		{
+			"type": "section",
+			"fields": [
+				{
+					"type": "mrkdwn",
+					"text": "*City:*\n "
+				},
+				{
+					"type": "mrkdwn",
+					"text": "*Country:*\n "
+				},
+				{
+					"type": "mrkdwn",
+					"text": "*Time Zone:*\n "
+				},
+				{
+					"type": "mrkdwn",
+					"text": "*Temperature (°F):*\n "
+				},
+				{
+					"type": "mrkdwn",
+					"text": "*Windspeed (Mph):*\n "
+				},
+				{
+					"type": "mrkdwn",
+					"text": "*Last Update:*\n "
+				},	
+				{
+					"type": "mrkdwn",
+					"text": "*Sunrise:*\n "
+				},
+				{
+					"type": "mrkdwn",
+					"text": "*Sunset:*\n "
+				}
+				
+				
+			]
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Have a good day!"
+			},
+			"accessory": {
+				"type": "image",
+				"image_url": "https://pbs.twimg.com/profile_images/625633822235693056/lNGUneLX_400x400.jpg",
+				"alt_text": "cute cat"
+			}
+		}
+	]
+}

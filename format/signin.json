@@ -1,0 +1,97 @@
+{
+	"blocks": [
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": "Welcome back to to-do command!",
+				"emoji": true
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*LET'S SIGN IN 🔥*"
+			}
+		},
+		{
+			"dispatch_action": true,
+			"type": "input",
+			"element": {
+				"type": "plain_text_input",
+				"dispatch_action_config": {
+					"trigger_actions_on": [
+						"on_character_entered"
+					]
+				},
+				"action_id": "username-signin"
+			},
+			"label": {
+				"type": "plain_text",
+				"text": "Username",
+				"emoji": true
+			}
+		},
+		{
+			"dispatch_action": true,
+			"type": "input",
+			"element": {
+				"type": "plain_text_input",
+				"dispatch_action_config": {
+					"trigger_actions_on": [
+						"on_character_entered"
+					]
+				},
+				"action_id": "password-signin"
+			},
+			"label": {
+				"type": "plain_text",
+				"text": "Password",
+				"emoji": true
+			}
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Sign in ✅",
+						"emoji": true
+					},
+					"value": "submit",
+					"action_id": "submit-signin-button"
+				}
+			]
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Do not have the account?"
+			},
+			"accessory": {
+				"type": "button",
+				"text": {
+					"type": "plain_text",
+					"text": "Sign up",
+					"emoji": true
+				},
+				"value": "sign-up",
+				"action_id": "sign-up-lost-button"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Completely lost/forgot account 😭, any concern/feedback 🙁? Please contact me at 📧 trienbanghuynh4701@gmail.com"
+			}
+		}
+	]
+}
