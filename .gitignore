@@ -120,8 +120,9 @@ venv.bak/
 # mkdocs documentation
 /site
 
-# mypy
+# my files
 admin.py
+notes.txt
 
 # Pyre type checker
 .pyre/
