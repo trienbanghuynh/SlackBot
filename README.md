@@ -14,7 +14,7 @@ This bot was created for **Adobe Career Academy 2023 Technical Project.**
 
   Run on: `main.py`
 
-On Slack Workspace, type `@TaskBuddy` to view all available commands!
+In your Slack App, type `@TaskBuddy` to view all available commands!
 
   
 
@@ -109,27 +109,23 @@ The command will open a simple to-do list app 😽
 
   
 
-## Database ("tasks.db")
+## Database 
 
-Sample users' table structure
+Sample users' table structure in tasks.db file
 
-| userId | username | password | task_list | isActive |
+| userId | username  | password  | task_list       | isActive |
+|--------|-----------|-----------|-----------------|----------|
+| 1      | john  | ********  | ["Shopping", "Email"]|   1    |
+| 2      | ben| ********  | ["Work", "Meetings"]  |   0     |
+| 3      | alice  | ********  | ["Study", "Research"] |   1    |
 
-|--------|----------|----------|-----------|----------|
-
-| 1 | user1 | pass123 | ["task11"] | 1 |
-
-| 2 | user2 | pass456 | ["task21", "task22", "task23"] | 0 |
-
-| 3 | user3 | pass789 | ["task31", "task32"] | 1 |
-
-  
+__Notes__: `1` means user in a sign-in (active) state, `0` means user in a sign-out (in-active) state.
 
 ## APIs were used
 
-[Slack Bolt API](https://api.slack.com/tools/bolt)
-[Slack API Socket Mode](https://api.slack.com/apis/connections/socket) 
+[Slack Bolt API](https://api.slack.com/tools/bolt)<br>
+[Slack API Socket Mode](https://api.slack.com/apis/connections/socket) <br>
 [Open-Meteo API](https://open-meteo.com/)
 
-## Presentation
-[Project Presentation](https://express.adobe.com/page/itDRYn7Zxz5lZ/)
+## Adobe Express Presentation
+[Project Presentation Page](https://express.adobe.com/page/itDRYn7Zxz5lZ/)
